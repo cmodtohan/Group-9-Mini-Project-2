@@ -1,0 +1,122 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Regular', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #c78b85;
+    --text-color: #473229;
+    --bg-color: #fffefb;
+    --rr-color: #ffa50a;
+    --other-color: #95949a;
+    --bb-color: #fff2de;
+
+    --big-font: 4.4rem;
+    --h2-font: 3rem;
+    --h4-font: 1.4rem;
+    --p-font: 1rem;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+  
+  /* content styles */
+  section {
+    margin-top: 5rem;
+  }
+  
+  .margin-left {
+    margin-left: 20%;
+  }
+  
+  .content {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .main-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cookies,
+  .brownies {
+    margin-top: 3rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+  
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cards {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    width: 20rem;
+  }
+  
+  .cards img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+  }
+  
+  .button {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  button {
+        display: inline-block;
+        padding: 12px 26px;
+        background: var(--main-color);
+        border-radius: 0.7rem;
+        color: var(--bg-color);
+        font-size: var(--p-font);
+        font-weight: bold;
+        transition: all ease .50s;
+  }
+  
+  button:hover {
+    transform: scale(1.1) translateX(-5px);
+  }
+  
+  #items {
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+

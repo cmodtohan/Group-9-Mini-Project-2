@@ -1,41 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maia Bakery -- Baked Fresh Daily</title>
-       <!--css link-->    
-       <link rel="stylesheet" type="text/css" href="style.css">
+    <!--css link-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="content.css" />
 
-       <!--box icons link-->
-       <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-</head>
-<body>
+    <!--box icons link-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
     <!----------header------------>
 
     <header>
-        <a href="#" class="logo">
-            <img src="Maia Bakery Logo.png">
-        </a>
-    
-    <ul class="navbar">
+      <a href="#" class="logo">
+        <img src="Maia Bakery Logo.png" />
+      </a>
+
+      <ul class="navbar">
         <li><a href="index.html">Home</a></li>
         <li><a href="shop.html" class="active">Shop</a></li>
         <li><a href="about-us.html">About Us</a></li>
         <li><a href="contact-us.html">Contact</a></li>
-    </ul>
+      </ul>
 
-    <div class="header-icons">
-        <a href="#"><i class='bx bx-search'></i></a>
-        <a href="#"><i class='bx bxs-bell' ></i></a>
-        <a href="#"><i class='bx bxs-cart' ></i></a>
+      <div class="header-icons">
+        <a href="#"><i class="bx bx-search"></i></a>
+        <a href="#"><i class="bx bxs-bell"></i></a>
+        <a href="#"><i class="bx bxs-cart"></i></a>
 
-    <!----------darkmode---------->
+        <!----------darkmode---------->
         <div class="bx bx-moon" id="darkmode"></div>
-    </div>
+      </div>
     </header>
-      <!----------js file link----------->
+
+    <!-- contents -->
+    <section>
+      <div class="margin-left"></div>
+      <div class="content">
+        <div>
+          <h1 class="main-title">Pick Your order</h1>
+        </div>
+        <div class="cookies">
+          <h3 class="title">Cookies</h3>
+          <div class="card-deck">
+            <div class="cards" id="cookies-1">
+              <div>
+                <img
+                  src="/COOKIES/cookie_belgianchocochip.jpg"
+                  alt="image"
+                  id="items"
+                />
+              </div>
+              <div class="description">Belgian Chocolate Chip Cookies</div>
+              <div class="price">Php 15.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="cookies-2">
+              <div>
+                <img
+                  src="/COOKIES/cookie_oatmealwalnut.jpg"
+                  alt="image"
+                  id="items"
+                />
+              </div>
+              <div class="description">Chewy Chocolate Oatmeal Cookies</div>
+              <div class="price">Php 15.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="cookies-3">
+              <div>
+                <img
+                  src="/COOKIES/cookie_cinnamonstreusel.jpg"
+                  alt="image"
+                  id="items"
+                />
+              </div>
+              <div class="description">Cinnamon Streusel Cookies</div>
+              <div class="price">Php 15.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="cookies-4">
+              <div>
+                <img
+                  src="/COOKIES/cookie_matchawithcc.jpg"
+                  alt="image"
+                  id="items"
+                />
+              </div>
+              <div class="description">Matcha Cream Cheese Cookies</div>
+              <div class="price">Php 15.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="cookies-5">
+              <div>
+                <img
+                  src="/COOKIES/cookie_midnightsmores.jpg"
+                  alt="image"
+                  id="items"
+                />
+              </div>
+              <div class="description">Midnight Smores Cookies</div>
+              <div class="price">Php 15.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="cookies-6">
+              <div>
+                <img
+                  src="/COOKIES/cookie_redvelvetwithcc.jpg"
+                  alt="image"
+                  id="items"
+                />
+              </div>
+              <div class="description">Red Velvet Cream Cheese Cookies</div>
+              <div class="price">Php 15.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="brownies">
+          <h3 class="title">Brownies</h3>
+          <div class="card-deck">
+            <div class="cards" id="brownies-1">
+              <div>
+                <img src="/BROWNIES/brownies 1.jpg" alt="image" id="items" />
+              </div>
+              <div class="description">Classic Fudgy Chocolate Brownies</div>
+              <div class="price">Php 20.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="brownies-2">
+              <div>
+                <img src="/BROWNIES/brownies 2.jpg" alt="image" id="items" />
+              </div>
+              <div class="description">Walnut Fudge Brownies</div>
+              <div class="price">Php 20.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="brownies-3">
+              <div>
+                <img src="/BROWNIES/brownies 3.jpg" alt="image" id="items" />
+              </div>
+              <div class="description">Cream Cheese Frosted Brownies</div>
+              <div class="price">Php 20.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="brownies-4">
+              <div>
+                <img src="BROWNIES/brownies 4.jpg" alt="image" id="items" />
+              </div>
+              <div class="description">Peanut Butter Brownies</div>
+              <div class="price">Php 20.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="brownies-5">
+              <div>
+                <img src="/BROWNIES/brownies 5.jpg" alt="image" id="items" />
+              </div>
+              <div class="description">Mint Chocolate Brownies</div>
+              <div class="price">Php 20.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="brownies-6">
+              <div>
+                <img src="/BROWNIES/brownies 6.jpg" alt="image" id="items" />
+              </div>
+              <div class="description">Caramel Brownies</div>
+              <div class="price">Php 20.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="loaf-breads">
+          <h3 class="title">Loaf Breads</h3>
+          <div class="card-deck">
+            <div class="cards" id="loafbread-1">
+              <div>
+                <img
+                  src="/LOAF BREAD/bananaloaf_plain_6in.jpg"
+                  alt="image"
+                  id="items"
+                />
+              </div>
+              <div class="description">Plain Moist Banana Loaf</div>
+              <div class="price">Php 120.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="loafbread-2">
+              <div>
+                <img src="/LOAF BREAD/bloaf_wal.jpg" alt="image" id="items" />
+              </div>
+              <div class="description">Moist Banana Loaf w/ Walnuts</div>
+              <div class="price">Php 150.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="loafbread-3">
+              <div>
+                <img src="/LOAF BREAD/bloaf_ccwal.jpg" alt="image" id="items" />
+              </div>
+              <div class="description">Double Chocolate Loaf</div>
+              <div class="price">Php 180.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cakes">
+          <h3 class="title">Cakes</h3>
+          <div class="card-deck">
+            <div class="cards" id="cake-1">
+              <div>
+                <img src="/CAKES/espresso cake1.jpg" alt="image" id="items" />
+              </div>
+              <div class="description">Cookie Waffle Chocolate Cake</div>
+              <div class="price">Php 600.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="cake-2">
+              <div>
+                <img src="/CAKES/espresso cake2.jpg" alt="image" id="items" />
+              </div>
+              <div class="description">Milky Caramel Buttered Cake</div>
+              <div class="price">Php 650.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="cards" id="cake-2">
+              <div>
+                <img
+                  src="/CAKES/blueberry cheesecake.jpg"
+                  alt="image"
+                  id="items"
+                />
+              </div>
+              <div class="description">Blueberry Cheesecake</div>
+              <div class="price">Php 500.00</div>
+              <div class="button">
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p id="total-price">Total: Php 0.00</p>
+        <button id="checkout">Checkout</button>
+      </div>
+    </section>
+    <div class="margin-right"></div>
+
+    <!----------footer----------->
+
+    <section class="contact" id="contact">
+      <div class="contact-box">
+        <a href="#" class="logo">
+          <img src="Maia Bakery Logo.png" />
+        </a>
+
+        <div class="icons">
+          <a href="https://www.facebook.com/maiabakeryph"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://instagram.com/maiabakeryph?igshid=YmMyMTA2M2Y="
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-box">
+        <h3>Shop</h3>
+        <li><a href="#"></a>About</li>
+        <li><a href="#"></a>Store Policy</li>
+        <li><a href="#"></a>Shipping/Pick-up</li>
+        <li><a href="#"></a>FAQ</li>
+      </div>
+
+      <div class="contact-box">
+        <h3>Opening Hours</h3>
+        <p>
+          Mon - Fri : 7 am to 5 pm<br />
+          Sat: 7 am to 3 pm<br />
+          Sun: CLOSED
+        </p>
+      </div>
+
+      <div class="contact-box">
+        <h3>Address</h3>
+        <p>
+          Angeles St. Caingin Road<br />
+          Morong, Rizal PH 1960<br />
+          Tel: 0960-382-0758
+        </p>
+      </div>
+    </section>
+
+    <!----------js file link----------->
     <script src="script.js"></script>
-</body>
+    <script src="script-add-to-cart.js"></script>
+  </body>
 </html>
